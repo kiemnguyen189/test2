@@ -18,6 +18,18 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\assignment20181-kiemnguyen189\CircularBuffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\assignment20181-kiemnguyen189\Item.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\assignment20181-kiemnguyen189\NearlySorted.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\assignment20181-kiemnguyen189\SimpleVector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -26,5 +38,34 @@
     <ClCompile Include="test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\assignment20181-kiemnguyen189\BasicItemTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assignment20181-kiemnguyen189\ItemDistanceTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assignment20181-kiemnguyen189\ItemPrintTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assignment20181-kiemnguyen189\TestCircularBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\assignment20181-kiemnguyen189\TestNearlySorted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\assignment20181-kiemnguyen189\.gitattributes">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\assignment20181-kiemnguyen189\.gitignore">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\assignment20181-kiemnguyen189\CppProperties.json">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="..\assignment20181-kiemnguyen189\README.md">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
